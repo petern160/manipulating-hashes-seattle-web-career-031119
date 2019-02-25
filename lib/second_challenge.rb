@@ -7,11 +7,13 @@ def second_challenge
   }
 
   #code your solution here!
-  contacts.each do |key, value|
-    value.each do |attribute, value|
-      if attribute == :favorite_icecream_flavors
-        value.shift
-      end
+  value_array = []
+
+
+
+   groceries.each do |key, value|
+    groceries[key].each do |food|
+      value_array.push(food)
     end
   end
 
