@@ -16,6 +16,6 @@ def second_challenge
       value_array.push(food)
     end
   end
-
+return value_array
 
 end
